@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<link rel="icon" href="icon.png">
+    <title> Blog of Adventure </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style> 
+    .adventuresection{
+    margin-bottom:20px;
+    }
+    #travel{
+    margin-top:55px;
+    }
+        a{
+        color:white;
+        }
+        a:hover{
+        scale:1.15;
+        font-style:bold;
+        }
+        .movie-head{
+        background-color:gray;
+        padding:20px; 
+        font-size:15px; 
+        color:white;
+        }
+       #aboutme{
+      background-color:beige;
+      padding:20px;
+       }
+    </style>
+</head>
+<body> 
+    <nav class="navbar navbar-inverse navbar-fixed-top"> 
+     <div class="container-fluid">
+
+      <div class="navbar-header">
+        
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"> 
+        <span class="icon-bar"> </span> 
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
+        </button>
+        <a class="navbar-brand" href="#"> Adventure blog </a>
+
+      </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav"> 
+        <li> <a href="#travel"> Travel </a></li>
+        <li> <a href="#movies"> Movies </a> </li>
+        <li> <a href="#nature"> Nature </a></li>
+        <li> <a href="#books"> Books </a></li>
+        <li> <a href="#aboutme"> About me </a></li>
+        </ul>
+       </div>
+     </div>
+    </nav>
+    <div class="container"> 
+      <div id="travel" class="page-header">
+        <h2> Top adventures of 2024 </h2>
+      </div>
+     <div class="adventuresection">  
+      <img src="https://i.natgeofe.com/n/28fd84d5-ebb6-45c8-a758-17d0089a0464/TT_report_ST0058057copy-Enhanced_HR_16x9.jpg" alt="Hikeof2024" class="img-responsive">
+      <h4> The alps </h4>
+      <p class="text-muted"> This is a good place to visit. Good for your vacation. 
+        It is a <strong> Great </strong> place to go to 
+       <u> To hike. </u>
+      </p>
+       </div>
+       <div class="adventuresection"> 
+        <img src="https://cdn.kimkim.com/files/a/article_images/images/367dd5a9287e01e2023e13558df7eddebab85e81/big-b66ab304d36698864c58a74ac041c626.jpg" alt="viewof2024" class="img-responsive">
+        <h4> Mount Everest </h4>
+        <p class="text-muted"> A great mountain to climb, but it's steep! 
+          <strong> <u> It's over 8000 <sub> m  </sub> above sea level! </u></strong> </p>
+       </div>
+       <div class="page-header" id="movies"> 
+        <h2> Movie Reviews </h2>
+       </div>
+       <div class="movie-section"> 
+        <div class="movie-head" data-toggle="collapse" data-target="#movie1">
+         <span class="glyphicon glyphicon-film"> </span>
+         Into the wild 
+        </div>
+        <div id="movie1" class="collapse">
+      <h5> Inspiring and good. <span class="glyphicon glyphicon-star"> </span>
+        <span class="glyphicon glyphicon-star"> </span>
+        <span class="glyphicon glyphicon-star"> </span>
+        <span class="glyphicon glyphicon-star"> </span>
+        <span class="glyphicon glyphicon-star"> </span>
+      </h5>
+      <p> It is a good movie and I like it. It is <strong> entertaining </strong></p>
+        </div>
+        <br>
+        <div class="movie-head" data-toggle="collapse" data-target="#movie2">
+          <span class="glyphicon glyphicon-film"> </span>
+          3 idiots 
+        </div>
+        <div id="movie2" class="collapse"> 
+          <h5> Very funny movie! Makes everyone laugh <span class="glyphicon glyphicon-star"> </span> 
+            <span class="glyphicon glyphicon-star"> </span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+          </h5>
+          <p> Very funny movie. Very interesting and heartfelt with no <b> dark humor </b> </p>
+        </div>
+       </div>
+      <div class="page-header" id="environment">
+        <h2> Environmental news </h2>
+      </div>
+      <ul class="list-group">
+      <li class="list-group-item list-group-item-info">
+      <h4> Protecting the endangered species </h4>
+      <p> Red list gull 'deliberately' killed at McDonald's. 
+        The bird, nicknamed Albert Tross, 
+        is found just weeks after being released from a rescue centre.</p>
+      </li>
+      <li class="list-group-item list-group-item-danger"> 
+        <h4> Endangered species </h4>
+      <p> Sunda Island Tiger. ...
+        Mountain Gorillas. ...
+        Tapanuli Orangutan. ...
+        Yangtze Finless Porpoise. ...
+        Black Rhinos. ...
+        African Forest Elephant. ...
+        Sumatran Orangutan. ...
+        Hawksbill Turtles. </p>
+      </li>
+      <li class="list-group-item list-group-item-success">
+      <h4> Species we could <u> save </u></h4>
+      <p> 
+       Javan rhino, Orangutan, Saola. 
+      </p>
+      </li>
+      </ul>
+     <div class="page-header" id="books"> <h2>  Book reviews </h2></div>
+      <div class="book-section">
+      <div class="book-head" data-toggle="modal" data-target="#book1"> 
+        <p> <span class="glyphicon glyphicon-book"> </span> Into the wild </p>
+      </div>
+      <div class="modal fade" id="book1" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+           <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          <h4 class="modal-title"> Into the wild  </h4>
+            </div>
+            <div class="modal-body"> 
+            <img src="https://m.media-amazon.com/images/I/61A+LdmTESL._AC_UF1000,1000_QL80_.jpg" class="img-responsive" style="height:300px;"> 
+            <p> This book is good, because I like nature and it <strong> <i> is </i> </strong> about nature. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br> 
+     <div class="book-header" data-toggle="modal" data-target="#book2"> 
+      <p> <span class="glyphicon glyphicon-book"> </span> Silent spring </p>
+     </div>
+     <div class="modal fade" id="book2" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+            <h4 class="modal-title"> Silent Spring </h4>
+          </div>
+          <div class="modal-body">
+            <img src="https://m.media-amazon.com/images/I/81Yza7XmfjL._AC_UF1000,1000_QL80_.jpg" class="img-responsive" style="height:300px;">
+            <p> This book is good because I <strong> like </strong> it. </p>
+          </div>
+        </div>
+      </div>
+     </div>
+     <br>
+    <div class="book-header" data-toggle="modal" data-target="#book3">
+      <p> <span class="glyphicon glyphicon-book"> </span> The genius of birds </p>
+    </div>
+    <div class="modal fade" id="book3" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+          <h4 class="modal-title"> The genius of birds </h4>
+        </div>
+        <div class="modal-body">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS9g3ys59uFkaqSAhSKwiX5l2fRrnr-pQY8Q&s" class="img-responsive" style="height:300px;">
+          <p> It's good. I like it. </p>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div> 
+      <section class="container my-5 page-header" id="aboutme">
+      <div class="row">
+      <div class="col-md-4 text-center">
+      <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3BsYXlcLzBiN2Y0ZTliLWY1OWMtNDAyNC05ZjA2LWIzZGMxMjg1MGFiNy0xOTIwLTEwODAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0=" class="img-fluid" style="height:299px; width:360px;"> 
+      </div>
+      <div class="col-md-8">
+        <h3> About me </h3>
+      <p> I like things related to nature and love discussing about it </p>
+      <p> I love the world around me </p>
+      <p> It has always fascinated me. </p>
+      </div>
+      </div> 
+      </section>
+    </div>
+</body>
+</html>
